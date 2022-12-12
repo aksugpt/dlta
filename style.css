@@ -1,0 +1,822 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  /* color: #999; */
+  /* background-color: #f5f5f5!important; */
+}
+.logo{
+    width: 150px !important;
+    height: auto;
+}
+.quote{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .RAQ .btn, .product-btn{
+    border-radius: 24px 4px !important;
+
+  }
+  .product-overview{
+    list-style: none;
+  }
+  .product h4{
+    color: #002E5B !important;
+    font-size: 30px;
+  }
+  .product h6{
+    text-decoration: underline;
+    color: #002E5B !important;
+    font-size: 20px;
+  }
+  .product-overview i{
+    color: #fde428 !important;
+  }
+  .click-logo img{
+    width: 8vw !important;
+    height: auto;
+  }
+  .typed p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #002E5B!important;
+  }
+  .market-heading, .testimonial-head, .contact-heading {
+    background-color: #002E5B !important;
+    color: white !important;
+    font-size: 50px !important;
+  }
+  .social-icon{
+    justify-content: space-around;
+    /* margin-right: 200px; */
+    margin-left: -15px;
+  }
+  
+  .social-icon li:hover{
+    background-color: #f895a0;
+    border-radius: 10px;
+    transition: .2s  ease-in-out;
+  }
+  .social-icon li, .social-info li{
+    list-style: none !important;
+  }
+  .shake, .shake-little, .shake-slow, .shake-hard, .shake-horizontal, .shake-vertical, .shake-rotate, .shake-opacity, .shake-crazy, .shake-chunk{
+    display: initial !important;
+  }
+  .nav ul li{
+    position: inherit !important;
+  }
+  .quote a{
+    border-radius: 24px 4px !important;
+    background-color: #c82333 !important;
+    color: white !important;
+  }
+  .top-nav{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      padding: 5px 15px;
+      background-color: #002E5B;
+      color: white;
+  }
+  .top-nav a{
+    color: #fde428;
+  }
+  .about-head{
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 15px;
+    color: #FFFFFF;
+    background-color: #003893;
+  }
+  .about-heading, .about-subhead{
+    font-size: 35px;
+    font-weight: bolder;
+    color: #110f8c!important;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.footer-content{
+  display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+.footer-head{
+  border-bottom: 1px solid rgba(204,204,204,.5);
+}
+.nav-link:hover {
+  text-decoration: underline !important;
+}
+.footer-logo{
+  width: 14vw;
+    height: auto;
+    padding: 15px;
+    background: white;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin-in{
+  font-size: 30px;
+}
+.contact{
+  background-image: url(image/contact-back.png);
+  background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 450px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+.btn-success{
+  background-color: #3e1f92 !important;
+  border: 1px solid #3e1f92 !important;
+}
+.contact-us{
+  display: flex !important;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.contact-btn{
+  float: right !important;
+}
+.footer-market li a, .footer-product li a, .footer-company li a{
+  font-size: 14px;
+}
+.footer-wrapper{
+  background-color: #142ea0!important;
+}
+.about-wrapper h4{
+  color: #110f8c!important;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.seigwerk{
+    background: #D8000A;
+    padding: 5px;
+    border-radius: 50px;
+}
+/* delta packaging animation starts form here */
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: -o-linear-gradient(
+    315deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size:200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: textclip 2s linear infinite;
+          animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@-webkit-keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* delta packaging animation ends here */
+
+.market, .contact{
+  background-color: #fff;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+/* Typing text code starts from here */
+.the-type {
+  width: 80%;
+  margin: 0 auto;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  display: inline;
+  background: -o-linear-gradient(
+    45deg,
+    rgb(0, 26, 143),
+    rgb(51, 212, 233),
+    rgb(250, 118, 66)
+  );
+  background: linear-gradient(
+    45deg,
+    rgb(0, 26, 143),
+    rgb(51, 212, 233),
+    rgb(250, 118, 66)
+  );
+  color: #002E5B!important;
+  font-weight: 500 !important;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  color: transparent;
+  text-transform: capitalize;
+  border-right-style: solid;
+  border-width: 5px;
+  /* border-image: linear-gradient(
+      45deg,
+      rgb(21, 0, 143),
+      rgb(51, 151, 233),
+      rgb(250, 118, 66)
+    )
+    1; */
+}
+/* Types text code ends here */
+
+
+
+
+
+.counter-block{
+  background-color: #002E5B;
+  /* background-color: #306B75; */
+  color: white;
+  font-size: 50px;
+  padding: 60px;
+}
+
+
+
+#myCarousel {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 9% !important;
+}
+
+.carousel-inner {
+  background: #111;
+}
+
+.carousel-indicators {
+  bottom: -13px !important;
+}
+
+.carousel-item {
+  padding-bottom: 25px;
+}
+
+video {
+  width: 100%;
+}
+.card{
+  border: none !important;
+  opacity: 1;
+  
+}
+.card:hover{
+  opacity: .6;
+    cursor: pointer;
+    text-decoration: none !important;
+    display: inline-block;
+   /* margin: 0 0.5rem;
+
+  animation: flash; 
+  animation-duration: 1s;  */
+}
+.card-body{
+  padding: 0px !important;
+}
+.card-title{
+  font-size: 16px;
+  text-align: center;
+  color: #4f5253;
+}
+.card-img-top{
+  -webkit-clip-path: circle(50% at 50% 85%);
+    clip-path: circle(50% at 50% 85%);
+    /* height: calc(100vh - 230px); */
+}
+
+
+/* testimonial section code starts here */
+.gtco-testimonials {
+  position: relative; 
+}
+@media (max-width: 767px) {
+  .gtco-testimonials {
+    margin-top: 20px;
+  }
+}
+.gtco-testimonials h2 {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  letter-spacing: 2px;
+  
+}
+.gtco-testimonials .owl-stage-outer {
+  padding: 30px 0;
+}
+.gtco-testimonials .owl-nav {
+  display: none;
+}
+.gtco-testimonials .owl-dots {
+  text-align: center;
+}
+.gtco-testimonials .owl-dots span {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: block;
+  background: #fff;
+  border: 2px solid #01b0f8;
+  margin: 0 5px;
+}
+.gtco-testimonials .owl-dots .active {
+  box-shadow: none;
+}
+.gtco-testimonials .owl-dots .active span {
+  background: #01b0f8;
+  box-shadow: none;
+  height: 12px;
+  width: 12px;
+  margin-bottom: -1px;
+}
+.gtco-testimonials .card {
+  background: #fff;
+  box-shadow: 0 8px 30px -7px #c9dff0;
+  margin: 0 20px;
+  padding: 0 10px;
+  border-radius: 20px;
+  border: 0;
+}
+.gtco-testimonials .card .card-img-top {
+  max-width: 100px;
+  border-radius: 50%;
+  margin: 15px auto 0;
+  box-shadow: 0 8px 20px -4px #95abbb;
+  width: 100px;
+  height: 100px;
+}
+.gtco-testimonials .card h5 {
+  color: #01b0f8;
+  font-size: 21px;
+  line-height: 1.3;
+}
+.gtco-testimonials .card h5 span {
+  font-size: 18px;
+  color: #666666;
+}
+.gtco-testimonials .card p {
+  font-size: 18px;
+  color: #555;
+  padding-bottom: 15px;
+}
+.gtco-testimonials .active {
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.gtco-testimonials .center {
+  opacity: 1;
+}
+.gtco-testimonials .center h5 {
+  font-size: 24px;
+}
+.gtco-testimonials .center h5 span {
+  font-size: 20px;
+}
+.gtco-testimonials .center .card-img-top {
+  max-width: 100%;
+  
+  height: 120px;
+  width: 120px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  outline: 0;
+}
+/* testimonial section code ends here */
+
+
+/* tealabels code starts form here */
+.tea-back, .pharma-back, .beauty-back, .chemical-back, .beverage-back, .durable-back, .tube-back, .sheeted-back, .promotional-back, .lubricant-back, .ppclear-back, .silver-back, .chromo-back, .ppwhite-back, .pewhite-back, .silverfilm-back, .peclear-back, .electric-back, .supplement-back{
+  background-image: url(image/back-bg.jpg);
+}
+.tea-back, .pharma-back, .beauty-back, .chemical-back, .beverage-back, .durable-back, .tube-back, .sheeted-back, .promotional-back, .lubricant-back, .ppclear-back, .silver-back, .chromo-back, .ppwhite-back, .pewhite-back, .silverfilm-back, .peclear-back, .electric-back, .supplement-back{
+  background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 400px;
+    width: 100%;
+}
+.tea-content, .pharma-content, .beauty-content, .chemical-content, .beauty-content, .durable-content, .tube-content, .sheeted-content, .promotional-content, .lubricant-content, .ppclear-content, .silver-content, .chromo-content, .ppwhite-content, .pewhite-content, .silverfilm-content, .peclear-content, .electric-content, .supplement-content{
+  margin: 0px 150px;
+}
+.tea-content h2, .pharma-content h2, .beauty-content h2, .beauty-content h2, .chemical-content h2, .beverage-content h2, .durable-content h2, .tube-content h2, .sheeted-content h2, .promotional-content h2, .lubricant-content h2, .ppclear-content h2, .silver-content h2, .chromo-content h2, .ppwhite-content h2, .pewhite-content h2, .silverfilm-content h2, .peclear-content h2, .electric-content h2, .supplement-content h2{
+  background-color: aliceblue;
+  padding: 10px;
+  font-size: 36px;
+    font-weight: 700;
+    color: #002e5b;
+}
+/* tealabels code ends here */
+
+/* our product code starts here */
+:root {
+  --light-gray: #b0bec5;
+  --gray: #37474f;
+  --primary: #651fff;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: minmax(250px, 300px);
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  border-radius: 20px!important;
+  background-color: aliceblue;
+}
+
+.product-card {
+  box-shadow: 0rem 0.125rem 0.5rem 0rem var(--light-gray);
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image {
+  position: absolute;
+  background-image: url(https://picsum.photos/500/400);
+  height: 10rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-image {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: 5.5rem;
+  transition: all 0.5s ease 0;
+}
+
+.profile-image:hover {
+  filter: grayscale(1);
+}
+
+.name {
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #c82333;
+}
+
+.description {
+  margin: 1rem 2rem;
+  font-size: 0.9rem;
+  
+}
+
+.product-btn {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  /* font-weight: bold; */
+  color: white;
+  background-color: #c82333 !important;
+  padding: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 650px) {
+  .wrapper {
+       grid-template-columns: repeat(2, minmax(250px, 300px));
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .wrapper {
+       grid-template-columns: repeat(3, minmax(250px, 300px));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper {
+       grid-template-columns: repeat(4, minmax(250px, 300px));
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .wrapper {
+       grid-template-columns: repeat(5, minmax(250px, 300px));
+  }
+}
+
+/* our product code ends here */
+
+@media all and (max-width: 426px) {
+  .contact-us{
+    display: block !important;
+  }
+  .contact{
+    height: auto !important;
+  }
+  .btn-success{
+    background-color: #c82333 !important;
+  }
+  
+}
+
+
+
+
+
+/* SOCIAL PANEL CSS code starts from here */
+
+.fl-fl {
+  background: rgb(0, 46, 91) !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px!important;
+  vertical-align: top!important;
+}
+
+.float-fb {
+  top: 160px;
+}
+
+.float-tw {
+  top: 215px;
+}
+
+.float-gp {
+  top: 270px;
+}
+
+.float-rs {
+  top: 325px;
+}
+
+.float-ig {
+  top: 380px;
+}
+
+.float-pn {
+  top: 435px;
+}
+
+/* social icon css code ends here */
+.historical-back{
+  background-color: #E7E7E9;
+}
+.historical-img{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historical-head{
+  font-size: 35px;
+    font-weight: bolder;
+    color: #110f8c!important;
+    padding: 10px;
+}
+.historical-back p, .historical-back li,.food-wrapper p, .food-wrapper ul, .about-label p, .why-delta ol, .commitment-wrapper p, .commitment-wrapper ul, .industry-segments p, .printing-technology p, .fmcg-wrapper p, .fmcg-wrapper ul, .liquor-wrapper p, .liquor-wrapper ul, .garments-wrapper p, .garments-wrapper ul, .pharma-wrapper p, .pharma-wrapper ul, .agroChemical-wrapper p, .agroChemical-wrapper ul, .lubricant-wrapper p, .lubricant-wrapper ul, .outer-text{
+  font-size: 14px;
+  text-align: justify;
+  color: #878787;
+}
+.about-wrapper p, .about-label p, .pharma-wrapper p, .pharma-wrapper ul{
+  text-align: justify;
+  color: #878787;
+  font-size: 14px;
+}
+.about-icon i{
+  font-size: 30px;
+  color: #c82333;
+}
+.about-label h5{
+  color: #110f8c!important;
+  font-weight: 700;
+}
+.testing h5, .industry-seg-head{
+  color: #c82333;
+}
+.labels-type{
+  background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    height: 400px;
+    width: 100%;
+  background-image: url(image/back-bg.jpg);
+
+}
+.labels-type{
+  display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.labels-type h2{
+  font-size: 40px;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.copyright-row{
+  background-color: #002e5b;
+}
+.copyright-row h6{
+  font-size: 10px;
+}
+.copyright-row img{
+  width: 5vw;
+  height: auto;
+}
+.pharma-image, .lubricant-image, .liquor-image, .garments-image, .fmcg-image, .food-image, .pharma-image1{
+  border: 2px solid #dc3545;
+}
+.lubricant-image img, .liquor-image img, .garments-image img{
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
+}
+.fmcg-image img{
+  height: 200px;
+  width: auto;
+}
+.myvid{
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+@media all and (max-width: 768px){
+  .top-nav h6{
+    font-size: 14px;
+  }
+  .animate-charcter, .typeing{
+    font-size: 23px;
+  }
+  .card-title {
+    font-size: 10px;
+  }
+  .counter-block h2{
+    font-size: 20px;
+  }
+  .counter-block h3{
+    font-size: 17px;
+  }
+  .contact-info h4{
+    font-size: 23px;
+  }
+  .location{
+    font-size: 14px;
+  }
+  #form_name, #form_lastname, #form_email, #form_phone, .form_message{
+    font-size: 12px;
+  }
+  .footer-market li a, .footer-product li a, .footer-company li a {
+    font-size: 11px;
+}
+.gtco-testimonials .card p {
+  font-size: 15px;
+}
+.about-heading, .about-subhead, .historical-head {
+  font-size: 27px;
+}
+.about-label h5 {
+  font-size: 15px;
+}
+.pharma-wrapper h4, .food-wrapper h4, .fmcg-wrapper h4, .agroChemical-wrapper h4, .garments-wrapper h4, .liquor-wrapper h4{
+  font-size: 22px;
+}
+}
+@media all and (max-width: 426px){
+  .top-nav{
+    flex-direction: column;
+  }
+  .footer-wrapper .row{
+    flex-direction: column !important;
+  }
+  .footer-market li a, .footer-product li a, .footer-company li a {
+    font-size: 14px;
+}
+.copyright-row, .counter-block .row{
+  flex-direction: column;
+}
+.footer-logo {
+  width: 50vw;
+  height: auto;
+}
+.copyright-row img {
+  width: 10vw;
+  height: auto;
+}
+.about-heading, .about-subhead, .historical-head {
+  font-size: 17px;
+}
+.food-beverage .row, .liquor .row, .agro-chemical .row, .historical-back .row{
+  flex-direction: column-reverse !important;
+}
+.animate-charcter, .typeing {
+  font-size: 18px;
+}
+.typed p {
+  font-size: 15px;
+}
+.market-heading, .testimonial-head, .contact-heading {
+  font-size: 30px !important;
+}
+.p-5 {
+  padding: 2rem!important;
+}
+.card-title {
+  font-size: 20px;
+}
+.tea-content, .pharma-content, .beauty-content, .chemical-content, .beauty-content, .durable-content, .tube-content, .sheeted-content, .promotional-content, .lubricant-content, .ppclear-content, .silver-content, .chromo-content, .ppwhite-content, .pewhite-content, .silverfilm-content, .peclear-content, .electric-content, .supplement-content {
+  margin: 0px;
+}
+.tea-content h2, .pharma-content h2, .beauty-content h2, .beauty-content h2, .chemical-content h2, .beverage-content h2, .durable-content h2, .tube-content h2, .sheeted-content h2, .promotional-content h2, .lubricant-content h2, .ppclear-content h2, .silver-content h2, .chromo-content h2, .ppwhite-content h2, .pewhite-content h2, .silverfilm-content h2, .peclear-content h2, .electric-content h2, .supplement-content h2 {
+
+  font-size: 30px;
+}
+.tea-content p, .pharma-content p, .beauty-content p, .chemical-content p, .beauty-content p, .durable-content p, .tube-content p, .sheeted-content p, .promotional-content p, .lubricant-content p, .ppclear-content p, .silver-content p, .chromo-content p, .ppwhite-content p, .pewhite-content p, .silverfilm-content p, .peclear-content p, .electric-content p, .supplement-content p {
+  font-size: 15px;
+}
+.labels-type h2 {
+  font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
